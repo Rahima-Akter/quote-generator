@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Qoute Generator</title>
+</head>
+<body class="bg-blue-800">
+    <main class="container mx-auto h-[641px]">
+        <div class="w-[50%] mx-auto flex justify-center">
+            <div class="card bg-white text-black w-96  mt-20">
+                <div class="card-body">
+                  <h2 class="font-bold text-2xl">Generate Qoute!</h2>
+                  <p id="p-quote">The only impossible journey is the one you never begin.</p>
+                  <p id="author" class="text-sm text-red-500 w-2/3 mt-2">unknown</p>
+                  <div class="card-actions justify-end">
+                    <button id="generate-btn" class="btn bg-blue-500 text-white">Generate</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+    </main>
+    <script src="js/qoute.js"></script>
+</body>
+</html>
